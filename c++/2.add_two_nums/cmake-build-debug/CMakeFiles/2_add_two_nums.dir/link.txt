@@ -1,3 +1,1 @@
-G:\dwonload\apps\CLion\ch-0\201.8743.17\bin\cmake\win\bin\cmake.exe -E remove -f CMakeFiles\2_add_two_nums.dir/objects.a
-C:\MinGW\bin\ar.exe cr CMakeFiles\2_add_two_nums.dir/objects.a @CMakeFiles\2_add_two_nums.dir\objects1.rsp
-C:\MinGW\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\2_add_two_nums.dir/objects.a -Wl,--no-whole-archive  -o 2_add_two_nums.exe -Wl,--out-implib,lib2_add_two_nums.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\2_add_two_nums.dir\linklibs.rsp
+/Library/Developer/CommandLineTools/usr/bin/c++  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/2_add_two_nums.dir/main.cpp.o  -o 2_add_two_nums 

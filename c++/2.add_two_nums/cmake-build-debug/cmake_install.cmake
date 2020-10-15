@@ -1,8 +1,8 @@
-# Install script for directory: G:/leetcode/c++/2.add_two_nums
+# Install script for directory: /Users/vecpeng/Documents/leetcode-solutions/c++/2.add_two_nums
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/2_add_two_nums")
+  set(CMAKE_INSTALL_PREFIX "/usr/local")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "G:/leetcode/c++/2.add_two_nums/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/vecpeng/Documents/leetcode-solutions/c++/2.add_two_nums/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
